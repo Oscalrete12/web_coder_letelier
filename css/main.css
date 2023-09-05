@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: Averia Serif Libre;
+    background-color: #FFFFFF;
+}
+
+
+
+/* Barra de Nevegación */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #262934;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #EADDCF;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navB li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+
+/* Introducción al Gym */
+
+.aboutMe{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutMeTitulo{
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.aboutMeContenido{
+    text-transform: uppercase;
+    text-align: center;
+    color: #030303;
+}
+
+
+
+/* Banners */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bannerOne{
+    height: 650px;
+    width: 100%;
+}
+
+.bannerTwo{
+    height: 650px;
+    width: 100%;
+}
+
+
+
+/* Planes Destacados */
+
+.contaiP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262934;
+    justify-content: center;
+    border-radius: 10px;
+    width: 523px;
+    height: 30px;
+}
+
+.titleP {
+    text-transform: uppercase;
+    text-align: center;
+    color: #EADDCF;
+}
+
+.containerP {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 35px 0;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 310px;
+    padding: 20px;
+    background-color: #F9F4EF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.planTitulo {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.planTituloOne {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.planImagen {
+    width: 159px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.planContenido {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.planValor {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.planBtn {
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px 2px;
+    background-color: #FFD8D8;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+}
+
+
+
+/* Como Encontrarnos & Horarios */
+
+.containerD {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    margin: 35px 0;
+}
+
+
+/*Maps Ubicación*/
+.contenidoMH {
+    display: flex;
+    flex-direction: row;
+    background-color: #262934;
+    justify-content: center;
+    border-radius: 10px;
+    width: 523px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.mapsLink {
+    margin-bottom: 30px;
+}
+
+.titleM {
+    text-transform: uppercase;
+    text-align: center;
+    color: #EADDCF;
+}
+
+/*Nuestros Horarios*/
+
+.conteinerH {
+    background-color: #F9F4EF;
+    border-radius: 15px;
+    width: 520px;
+    height: 280px;
+}
+
+
+/*Pie de Pagina*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #262934;
+    text-transform: uppercase;
+    color: #EADDCF;
+}
+
+.favicon {
+    display: flex;
+    justify-content: center;
+}
